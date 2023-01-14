@@ -85,4 +85,3 @@ if st.button('Predict Price'):
 
     st.title("The Predicted Price  Rs " +
              str(int(np.exp(model.predict(query)[0]))))
-#
